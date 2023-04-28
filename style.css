@@ -1,3 +1,8 @@
+body
+{
+    font-family: "Audiowide";
+    background-image: linear-gradient(to right, white, lightgrey);
+}
 h1
 {
     text-align: center;
@@ -30,6 +35,9 @@ h6
     margin-right: auto;
     width: 30%;
     border-radius: 8px;
+    border-style: outset;
+    border-width: 3px;
+    border-color: lightslategray;
 }
 iframe
 {
@@ -39,3 +47,21 @@ iframe
     width: 70%;
     height: 100%;
 }
+.bg-4 
+{ 
+    background-color: #2f2f2f;
+    color: #fff;
+}
+.container-fluid-1
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.jumbotron
+{
+    padding: 1px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: lightslategray;
+}
+#section1{}
