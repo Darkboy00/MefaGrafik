@@ -53,6 +53,10 @@ h6
     border-width: 3px;
     border-color: lightslategray;
 }
+.img-thumbnail-2:hover
+{
+    box-shadow: 0px 0px 30px grey;
+}
 iframe
 {
     display: block;
@@ -110,3 +114,7 @@ iframe
     background-position: 200% center;
   }
 }
+iframe
+{
+    border-radius: 8px;
+} 
