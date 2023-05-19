@@ -84,6 +84,7 @@ iframe
     border-style: outset;
     border-width: 5px;
     border-color: lightslategray;
+    animation: glow 2s linear infinite;
 }
 #section1{}
 .animate-charcter
@@ -122,17 +123,35 @@ iframe
     0%
     {
         opacity: 80%;
-        transform: scale(1.15);
+        transform: scale(0.9);
     }
     50%
     {
         opacity: 100%;
-        transform: scale(1.2);
+        transform: scale(1);
     }
     100%
     {
         opacity: 80%;
-        transform: scale(1.15);
+        transform: scale(0.9);
+    }
+}
+@keyframes glow
+{
+    0%
+    {
+        box-shadow:
+        0 0 10px lightslategray;
+    }
+    50%
+    {
+        box-shadow:
+        0 0 5px white;
+    }
+    100%
+    {
+        box-shadow:
+        0 0 10px lightslategray;
     }
 }
 iframe
