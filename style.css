@@ -45,6 +45,10 @@ h6
     border-style: outset;
     border-color: lightslategray;
 }
+.img-thumbnail:hover
+{
+    box-shadow: 0px 0px 30px grey;
+}
 .img-thumbnail-2
 {
     display: block;
