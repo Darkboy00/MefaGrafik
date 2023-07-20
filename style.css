@@ -361,3 +361,38 @@ iframe
 		background-position: 0% 50%;
 	}
 }
+html 
+{
+    scroll-behavior:smooth;
+}
+body 
+{
+    position: relative;
+}
+.section 
+{
+    height: 100vh;
+    margin-bottom: 20px;
+    font-size: 100px;
+}
+.scroll-container 
+{
+    position: absolute;
+    top: 0;
+    right:0;
+    height: 100%;
+}
+.scroll-container:before 
+{
+    content: '';
+    display: block;
+    height: 150vh;
+    pointer-events: none;
+}
+.scroll-container a 
+{
+    position: sticky;
+    top: 95vh;
+    cursor: pointer;
+    font-size: 20px;
+}
