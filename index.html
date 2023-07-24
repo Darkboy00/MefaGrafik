@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,11 +14,21 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
     <link rel="icon" href="Mefa Favicon.png">
     <link rel="stylesheet" href="app.js">
     <link rel="stylesheet" href="style.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <script>
+        new kursor
+        ({
+            type: 1,
+            removeDefaultCursor: true,
+            color: "#708090",
+        });
+    </script>
     <div class="scroll-container">
         <a href="#top"><img src="up.png" alt="up"></a>
       </div>
@@ -91,7 +102,9 @@
     </div>
     <div class="container">
         <div class="jumbotron">
-            <h6>2011 tarihinden beri zamanında teslim yapan, müşteri memnuniyeti ön planda tutan firmamız en kaliteli hizmeti vermektedir.</h6>
+            <div class="w3-container w3-center w3-animate-left">
+                <h6>2011 tarihinden beri zamanında teslim yapan, müşteri memnuniyeti ön planda tutan firmamız en kaliteli hizmeti vermektedir.</h6>
+            </div>
         </div>
     </div>
     <a href="work1.jpg" target="_blank"><img src="work1.jpg" class="img-thumbnail" alt="work1" onclick="audio.play()"></a><br><br>
