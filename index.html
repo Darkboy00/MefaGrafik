@@ -22,6 +22,13 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <script>
+        function myFunction()
+        {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+    <script>
         new kursor
         ({
             type: 1,
@@ -56,6 +63,7 @@
                     <li class="active"><a href="#">Ana Sayfa</a></li>
                     <li><a href="#section2">Hakkımızda</a></li>
                     <li><a href="#section1">İletişim</a></li>
+                    <button class="button" onclick="myFunction()">Dark mode</button>
                 </ul>
             </div>
         </div>
@@ -441,7 +449,7 @@
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1504.9952679201056!2d28.916682000000005!3d41.025463!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caba43574a4839%3A0x24d7d222ba4a77ad!2sMaltepe%2C%202.%20Matbaac%C4%B1lar%20Sitesi%2C%2034010%20Zeytinburnu%2F%C4%B0stanbul%2C%20T%C3%BCrkiye!5e0!3m2!1str!2sus!4v1682608430457!5m2!1str!2sus" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
     <footer id="section1" class="container-fluid-1 bg-4 text-center">
-        <h5><i class="material-icons" style="font-size:24px;">phone</i> MEFA Telefon: 0212 674 26 19<br><br><i class="material-icons" style="font-size:24px;">phone</i> ASLI Telefon: 0212 613 44 52<br><br><i class="material-icons" style="font-size:24px;">gmail</i> MEFA Mail: mefagrafik@gmail.com<br><br><i class="material-icons" style="font-size:24px;">gmail</i> ASLI Mail: aslictp@gmail.com <br><br><i class="material-icons" style="font-size:24px;">public</i> Adres: Maltepe Mah. Litros Yolu Sk. 2. Matbaacılar Sit. Kat:5 C Blok No: 3NC3 Zeytinburnu/İstanbul <br><br><i class="material-icons">alarm</i> Çalışma Saatleri: P.Tesi - Cuma : 7/24 C.Tesi : 08:30 - 13:00 Pazar : Kapalı</h5>
+        <h5><i class="material-icons" style="font-size:24px; animation: icon-resize 1s linear infinite;">phone</i> MEFA Telefon: 0212 674 26 19<br><br><i class="material-icons" style="font-size:24px; animation: icon-resize 1s linear infinite;">phone</i> ASLI Telefon: 0212 613 44 52<br><br><i class="material-icons" style="font-size:24px; animation: icon-fade 1s linear infinite;">gmail</i> MEFA Mail: mefagrafik@gmail.com<br><br><i class="material-icons" style="font-size:24px; animation: icon-fade 1s linear infinite;">gmail</i> ASLI Mail: aslictp@gmail.com <br><br><i class="material-icons" style="font-size:24px; animation: icon 2s linear infinite;">public</i> Adres: Maltepe Mah. Litros Yolu Sk. 2. Matbaacılar Sit. Kat:5 C Blok No: 3NC3 Zeytinburnu/İstanbul <br><br><i class="material-icons" style="animation: icon1 1s linear infinite;">alarm</i> Çalışma Saatleri: P.Tesi - Cuma : 7/24 C.Tesi : 08:30 - 13:00 Pazar : Kapalı</h5>
     </footer>
 </body>
 </html>
