@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mefa Grafik</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css" />
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    <link rel="icon" href="Mefa Favicon.png" />
+    <link rel="stylesheet" href="app.js" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+    <script>
+      new kursor({
+        type: 1,
+        removeDefaultCursor: true,
+        color: "#708090",
+      });
+    </script>
+    <div class="scroll-container">
+      <a href="#top" style="z-index: 100"><img src="up.png" alt="up" /></a>
+    </div>
+    <script type="text/javascript">
+      const audio = new Audio();
+      audio.src = "button.wav";
+    </script>
+    <div class="loader">
+      <span class="loader__element"></span>
+      <span class="loader__element"></span>
+      <span class="loader__element"></span>
+    </div>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Mefa Grafik</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Ana Sayfa</a></li>
+            <li><a href="#section2">Hakkımızda</a></li>
+            <li><a href="#section1">İletişim</a></li>
+            <button class="button" onclick="myFunction()">Karanlık Mod</button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <center>
+        <div class="wrapper one">
+          <div class="drop-main">
+            <div class="d"><h3 class="animate-charcter">M</h3></div>
+            <div class="r"><h3 class="animate-charcter">E</h3></div>
+            <div class="o"><h3 class="animate-charcter">F</h3></div>
+            <div class="p"><h3 class="animate-charcter">A</h3></div>
+          </div>
+          <div class="drop-main">
+            <div class="d"><h3 class="animate-charcter">G</h3></div>
+            <div class="r"><h3 class="animate-charcter">R</h3></div>
+            <div class="o"><h3 class="animate-charcter">A</h3></div>
+            <div class="p"><h3 class="animate-charcter">F</h3></div>
+            <div class="s"><h3 class="animate-charcter">İ</h3></div>
+            <div class="m"><h3 class="animate-charcter">K</h3></div>
+          </div>
+        </div>
+      </center>
+    </div>
+    <div class="container" id="section2">
+      <div class="jumbotron">
+        <div class="wrapper nine">
+          <div>
+            <h4 class="rotate">
+              <span>H</span>
+              <span>A</span>
+              <span>K</span>
+              <span>K</span>
+              <span>I</span>
+              <span>M</span>
+              <span>I</span>
+              <span>Z</span>
+              <span>D</span>
+              <span>A</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="jumbotron">
+        <div class="w3-container w3-center w3-animate-left">
+          <h6>
+            2011 tarihinden beri zamanında <u>teslim yapan</u>,
+            <u>müşteri memnuniyeti ön planda tutan</u> firmamız en kaliteli
+            hizmeti vermektedir.
+          </h6>
+        </div>
+      </div>
+    </div>
+    <a href="work1.jpg" target="_blank"
+      ><img
+        src="work1.jpg"
+        class="img-thumbnail"
+        alt="work1"
+        onclick="audio.play()" /></a
+    ><br /><br />
+    <a href="work4.jpg" target="_blank"
+      ><img
+        src="work4.jpg"
+        class="img-thumbnail"
+        alt="work1"
+        onclick="audio.play()" /></a
+    ><br /><br />
+    <div class="container">
+      <div class="jumbotron">
+        <div class="wrapper nine">
+          <div>
+            <h4 class="rotate">
+              <span>K</span>
+              <span>O</span>
+              <span>D</span>
+              <span>A</span>
+              <span>K</span>
+              <br />
+              <span>T</span>
+              <span>R</span>
+              <span>E</span>
+              <span>N</span>
+              <span>D</span>
+              <span>S</span>
+              <span>E</span>
+              <span>T</span>
+              <span>T</span>
+              <span>E</span>
+              <span>R</span>
+              <br />
+              <span>C</span>
+              <span>T</span>
+              <span>P</span>
+              <br />
+              <span>M</span>
+              <span>A</span>
+              <span>K</span>
+              <span>İ</span>
+              <span>N</span>
+              <span>E</span>
+              <span>S</span>
+              <span>İ</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div class="jumbotron">
+        <h6>800 x 1030 42 KALIP SAATTE</h6>
+      </div>
+    </div>
+    <a href="work2.jpg" target="_blank"
+      ><img
+        src="work2.jpg"
+        class="img-thumbnail"
+        alt="work2"
+        onclick="audio.play()" /></a
+    ><br />
+    <div class="container">
+      <div class="jumbotron">
+        <div class="wrapper nine">
+          <div>
+            <h4 class="rotate">
+              <span>K</span>
+              <span>O</span>
+              <span>N</span>
+              <span>İ</span>
+              <span>T</span>
+              <span>A</span>
+              <br />
+              <span>B</span>
+              <span>A</span>
+              <span>N</span>
+              <span>Y</span>
+              <span>O</span>
+              <br />
+              <span>M</span>
+              <span>A</span>
+              <span>K</span>
+              <span>İ</span>
+              <span>N</span>
+              <span>E</span>
+              <span>S</span>
+              <span>İ</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="work3.jpg" target="_blank"
+      ><img
+        src="work3.jpg"
+        class="img-thumbnail"
+        alt="work2"
+        onclick="audio.play()" /></a
+    ><br />
+    <div class="container">
+      <div class="jumbotron">
+        <div class="wrapper nine">
+          <div>
+            <h4 class="rotate">
+              <span>1</span>
+              <span>.</span>
+              <span>M</span>
+              <span>A</span>
+              <span>K</span>
+              <span>İ</span>
+              <span>N</span>
+              <span>E</span>
+              <br />
+              <span>K</span>
+              <span>O</span>
+              <span>N</span>
+              <span>İ</span>
+              <span>T</span>
+              <span>A</span>
+              <br />
+              <span>C</span>
+              <span>T</span>
+              <span>P</span>
+              <br />
+              <span>M</span>
+              <span>A</span>
+              <span>K</span>
+              <span>İ</span>
+              <span>N</span>
+              <span>E</span>
+              <span>S</span>
+              <span>İ</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div class="jumbotron">
+        <h6>800x1030 25 Kalıp Saatte</h6>
+      </div>
+    </div>
+    <a href="work5.jpg" target="_blank"
+      ><img
+        src="work5.jpg"
+        class="img-thumbnail"
+        alt="work2"
+        onclick="audio.play()" /></a
+    ><br />
+    <div class="container">
+      <div class="jumbotron">
+        <div class="wrapper nine">
+          <div>
+            <h4 class="rotate">
+              <span>F</span>
+              <span>U</span>
+              <span>J</span>
+              <span>İ</span>
+              <br />
+              <span>C</span>
+              <span>T</span>
+              <span>P</span>
+              <br />
+              <span>M</span>
+              <span>A</span>
+              <span>K</span>
+              <span>İ</span>
+              <span>N</span>
+              <span>E</span>
+              <span>S</span>
+              <span>İ</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div class="jumbotron">
+        <h6>800x1030 43 Kalıp Saatte</h6>
+      </div>
+    </div>
+    <a href="work7.jpg" target="_blank"
+      ><img
+        src="work7.jpg"
+        class="img-thumbnail"
+        alt="work2"
+        onclick="audio.play()" /></a
+    ><br />
+    <div class="jumbotron">
+      <h3>
+        MEFA EMİNTAŞ <br />
+        ŞUBESİ
+      </h3>
+    </div>
+    <a href="emintas1.jpg" target="_blank"
+      ><img
+        src="emintas1.jpg"
+        class="img-thumbnail"
+        alt="work2"
+        onclick="audio.play()" /></a
+    ><br />
+    <a href="emintas2.jpg" target="_blank"
+      ><img
+        src="emintas2.jpg"
+        class="img-thumbnail"
+        alt="work2"
+        onclick="audio.play()" /></a
+    ><br />
+    <a href="emintas3.jpg" target="_blank"
+      ><img
+        src="emintas3.jpg"
+        style="width: 50%"
+        class="img-thumbnail"
+        alt="work2"
+        onclick="audio.play()" /></a
+    ><br />
+    <div class="container">
+      <div class="jumbotron">
+        <div class="wrapper nine">
+          <div>
+            <h4 class="rotate">
+              <span>E</span>
+              <span>P</span>
+              <span>S</span>
+              <span>O</span>
+              <span>N</span>
+              <span></span>
+              <span>T</span>
+              <span>5</span>
+              <span>2</span>
+              <span>0</span>
+              <span>0</span>
+              <br />
+              <span>P</span>
+              <span>L</span>
+              <span>O</span>
+              <span>T</span>
+              <span>T</span>
+              <span>E</span>
+              <span>R</span>
+              <span></span>
+              <span>O</span>
+              <span>Z</span>
+              <span>A</span>
+              <span>L</span>
+              <span>İ</span>
+              <span>T</span>
+              <span></span>
+              <span>M</span>
+              <span>A</span>
+              <span>K</span>
+              <span>İ</span>
+              <span>N</span>
+              <span>E</span>
+              <span>S</span>
+              <span>İ</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="ozalitmakinesi.jpg" target="_blank"
+      ><img
+        src="ozalitmakinesi.jpg"
+        class="img-thumbnail"
+        alt="work2"
+        onclick="audio.play()" /></a
+    ><br />
+    <div class="container">
+      <div class="jumbotron">
+        <div class="wrapper nine">
+          <div>
+            <h4 class="rotate">
+              <span>G</span>
+              <span>R</span>
+              <span>A</span>
+              <span>F</span>
+              <span>İ</span>
+              <span>K</span>
+              <span>E</span>
+              <span>R</span>
+              <span>L</span>
+              <span>E</span>
+              <span>R</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      .team-member img {
+        max-width: 90%;
+        border-radius: 8px;
+      }
+    </style>
+    <div class="gallery">
+      <div class="team-member">
+        <h3>Adem Kaymakcı</h3>
+        <img src="adem.jpg" alt="Personel 1" /><br /><br />
+      </div>
+      <div class="team-member">
+        <h3>Mehmet Kaymakcı</h3>
+        <img src="mehmet.jpg" alt="Personel 2" /><br /><br />
+      </div>
+    </div>
+    <div class="container">
+      <div class="jumbotron">
+        <div class="wrapper nine">
+          <div>
+            <h4 class="rotate">
+              <span>O</span>
+              <span>P</span>
+              <span>E</span>
+              <span>R</span>
+              <span>A</span>
+              <span>T</span>
+              <span>Ö</span>
+              <span>R</span>
+              <span>L</span>
+              <span>E</span>
+              <span>R</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery">
+      <div class="team-member">
+        <h3>Kemal Nagaş</h3>
+        <img src="kemal.jpg" alt="Personel 3" /><br /><br />
+      </div>
+    </div>
+    <div class="container">
+      <div class="jumbotron">
+        <div class="wrapper nine">
+          <div>
+            <h4 class="rotate">
+              <span>S</span>
+              <span>E</span>
+              <span>V</span>
+              <span>K</span>
+              <span>İ</span>
+              <span>Y</span>
+              <span>A</span>
+              <span>T</span>
+              <br />
+              <span>G</span>
+              <span>Ö</span>
+              <span>R</span>
+              <span>E</span>
+              <span>V</span>
+              <span>L</span>
+              <span>İ</span>
+              <span>S</span>
+              <span>İ</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery">
+      <div class="team-member">
+        <h3>Yusuf Ali Kaplan</h3>
+        <img src="yusuf.jpg" alt="Personel 4" /><br /><br />
+      </div>
+    </div>
+    <div class="container">
+      <div class="jumbotron">
+        <div class="wrapper nine">
+          <div>
+            <h4 class="rotate">
+              <span>A</span>
+              <span>D</span>
+              <span>R</span>
+              <span>E</span>
+              <span>S</span>
+              <span>İ</span>
+              <span>M</span>
+              <span>İ</span>
+              <span>Z</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1504.9952679201056!2d28.916682000000005!3d41.025463!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caba43574a4839%3A0x24d7d222ba4a77ad!2sMaltepe%2C%202.%20Matbaac%C4%B1lar%20Sitesi%2C%2034010%20Zeytinburnu%2F%C4%B0stanbul%2C%20T%C3%BCrkiye!5e0!3m2!1str!2sus!4v1682608430457!5m2!1str!2sus"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe
+    ><br />
+    <footer id="section1" class="container-fluid-1 bg-4 text-center">
+      <h5>
+        <i
+          class="material-icons"
+          style="font-size: 24px; animation: icon-resize 1s linear infinite"
+          >phone</i
+        ><a href="tel:02126742619" style="color: white"
+          >MEFA Telefon: 0212 674 26 19</a
+        ><br /><br />
+        <i
+          class="material-icons"
+          style="font-size: 24px; animation: icon-resize 1s linear infinite"
+          >phone</i
+        ><a href="tel:02126134452" style="color: white"
+          >ASLI Telefon: 0212 613 44 52</a
+        ><br /><br />
+        <i
+          class="material-icons"
+          style="font-size: 24px; animation: icon-resize 1s linear infinite"
+          >phone</i
+        ><a href="tel:02125674768" style="color: white"
+          >MEFA EMİNTAŞ Telefon: 0212 567 47 68</a
+        ><br /><br />
+        <i
+          class="material-icons"
+          style="font-size: 24px; animation: icon-fade 1s linear infinite"
+          >gmail</i
+        ><a href="mailto:mefagrafik@gmail.com" style="color: white"
+          >MEFA Mail: mefagrafik@gmail.com</a
+        ><br /><br />
+        <i
+          class="material-icons"
+          style="font-size: 24px; animation: icon-fade 1s linear infinite"
+          >gmail</i
+        ><a href="mailto:aslictp@gmail.com" style="color: white"
+          >ASLI Mail: aslictp@gmail.com</a
+        ><br /><br />
+        <i
+          class="material-icons"
+          style="font-size: 24px; animation: icon-fade 1s linear infinite"
+          >gmail</i
+        ><a href="mailto:mefactp@gmail.com" style="color: white"
+          >MEFA Mail: mefactp@gmail.com</a
+        ><br /><br />
+        <i
+          class="material-icons"
+          style="font-size: 24px; animation: icon 2s linear infinite"
+          >public</i
+        ><a
+          href="https://www.google.com/maps?ll=41.024836,28.918484&z=16&t=m&hl=tr&gl=US&mapclient=embed&q=2.+Matbaac%C4%B1lar+Sitesi+Maltepe+34010+Zeytinburnu/%C4%B0stanbul+T%C3%BCrkiye"
+          style="color: white"
+          >2.MATBAACILAR MEFA Adres: Maltepe Mah. Litros Yolu Sk. 2. Matbaacılar
+          Sit. Kat:5 C Blok No: 3NC3 Zeytinburnu/İstanbul</a
+        ><br /><br />
+        <i
+          class="material-icons"
+          style="font-size: 24px; animation: icon 2s linear infinite"
+          >public</i
+        >
+        EMİNTAŞ MEFA Adres: Emintaş Sanayi Sitesi No: 257 Davutpaşa-Zeytinburnu
+        / İstanbul <br /><br /><i
+          class="material-icons"
+          style="animation: icon1 1s linear infinite"
+          >alarm</i
+        >
+        Çalışma Saatleri: P.Tesi - Cuma : 7/24 C.Tesi : 08:30 - 16:00 Pazar :
+        Kapalı
+      </h5>
+      <section style="padding: 40px; max-width: 800px; margin: auto">
+        <h2 style="text-align: center; margin-bottom: 30px">
+          Sıkça Sorulan Sorular
+        </h2>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            🎨 Hangi dosya formatlarını kabul ediyorsunuz?
+          </button>
+          <div class="faq-answer">
+                PDF, AI, CDR ve FHD formatlarını tercih ediyoruz. Tasarımın CMYK renk formatında olması baskı kalitesi açısından önemlidir.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            🧑‍💻 Tasarım desteği sağlıyor musunuz?
+          </button>
+          <div class="faq-answer">
+            Evet. İsteğe bağlı olarak grafik tasarım hizmeti de sunuyoruz.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">💳 Ödemeyi nasıl yapabilirim?</button>
+          <div class="faq-answer">
+            EFT veya Peşin ödeme seçeneklerimiz mevcuttur.
+          </div>
+        </div>
+
+                <div class="faq-item">
+          <button class="faq-question">📁 Tasarım onayı almadan baskıya geçiliyor mu?</button>
+          <div class="faq-answer">
+            Hayır, her zaman tasarımı size gönderip onay aldıktan sonra baskıya geçiyoruz. Bu şekilde hata riskini sıfıra indiriyoruz.
+          </div>
+        </div>
+
+                        <div class="faq-item">
+          <button class="faq-question">🎯 Tasarımı sonradan değiştirebilir miyim?</button>
+          <div class="faq-answer">
+            Baskıya geçmeden önce tasarımda revize yapılabilir. Ancak baskı başladıysa değişiklik mümkün değildir.
+          </div>
+        </div>
+                        <div class="faq-item">
+          <button class="faq-question">🎨 Renklerde ekranda görülenle basılı ürün aynı mı olur?</button>
+          <div class="faq-answer">
+            Renklerde küçük farklar olabilir. Ekranlar RGB, baskılar ise CMYK renk sistemini kullanır. Bu fark doğal bir sonuçtur.
+          </div>
+        </div>
+      </section>
+
+      <style>
+        .faq-item {
+          margin-bottom: 15px;
+        }
+        .faq-question {
+          color: black;
+          width: 100%;
+          padding: 15px;
+          text-align: left;
+          font-size: 16px;
+          font-weight: bold;
+          border: none;
+          background-color: white;
+          border-radius: 8px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+        .faq-question:hover {
+          background-color: white;
+        }
+        .faq-answer {
+          color: black;
+          display: none;
+          padding: 15px;
+          background-color: white;
+          border-left: 4px solid #007bff;
+          border-radius: 0 0 8px 8px;
+        }
+      </style>
+
+      <script>
+        const questions = document.querySelectorAll(".faq-question");
+        questions.forEach((q) => {
+          q.addEventListener("click", () => {
+            const answer = q.nextElementSibling;
+            const isOpen = answer.style.display === "block";
+            document
+              .querySelectorAll(".faq-answer")
+              .forEach((a) => (a.style.display = "none"));
+            answer.style.display = isOpen ? "none" : "block";
+          });
+        });
+      </script>
+    </footer>
+  </body>
+</html>
