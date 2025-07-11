@@ -694,5 +694,16 @@
         });
       </script>
     </footer>
+    <script>
+  // Mobil menüde bir bağlantıya tıklanınca menüyü kapat
+  $(document).ready(function () {
+    $('.navbar-collapse a').click(function () {
+      if ($('.navbar-toggle').css('display') != 'none') {
+        $(".navbar-toggle").click(); // menüyü kapat
+      }
+    });
+  });
+</script>
+
   </body>
 </html>
